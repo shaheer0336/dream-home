@@ -1,0 +1,956 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* display: inline-block; */
+}
+@font-face {
+    font-family: poppins;
+    /* src: url("fonts/Poppins/Poppins-Regular.ttf"); */
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face{
+    font-family: poppins-bold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face{
+    font-family: poppins-medium;
+    src: url("../fonts/Poppins/Poppins-Light.ttf")
+}
+@font-face {
+    font-family: poppins-extralight;
+    src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+}  
+@font-face {
+    font-family: dancing-scirpt;
+    src: url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+/* .navbar-main ul{
+    list-style: none;
+    list-style-type: none;
+
+}
+.main-aside{
+    box-sizing: border-box;
+    width: 300px;
+    border: 11px solid black;
+} */
+body{
+    background-color: rgb(221, 221, 221) !important;
+}
+.navbar-light .navbar-toggler {
+    border-color: none;
+    color: transparent;
+}
+.navbar{
+    background-color: transparent !important;
+    width: 225px;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+}
+nav{
+    position: fixed;
+    /* border: 1px solid red; */
+    /* height: 100%; */
+}
+#navbarNav ul{ 
+    display: block !important;
+    line-height: 30px;
+}
+#navbarNav ul li a{
+    font-weight: 600;
+    font-size:22px ;
+    font-family: poppins-medium;
+    color: black !important;
+}
+/* .main-fixed-logo-sh h1 a{
+    text-decoration: none;
+    color: rgb(201, 166, 102); ;
+    border: 2px solid rgb(201, 166, 102);
+    font-family: poppins-bold;
+    font-size: 45px;
+    position: relative;
+    top: 252px;
+    right: 93px; */
+    /* width: 20px; */
+/* } */
+.social ul{
+    list-style-type: none;
+}
+.social ul li a{
+color: black;
+text-decoration: none;
+}
+.container-main-architects div div h1 {
+    font-family: poppins-bold;
+    /* font-weight: bold; */
+    font-size: 8.9vw;
+    color: black;
+    margin-left: 220px;
+    margin-top: 40px;
+
+}
+.container-main-architects div div p{
+    margin-left: 220px;
+    font-family: poppins;
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+}
+.experienced-sh   {
+    /* width: 200px; */
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
+    margin-top: 500px;
+}
+.experienced-shDiv div{
+    display: inline-block;
+}
+
+.about-column-sh{
+    background-image: url("../images/photo-1551590192-8070a16d9f67.jfif");
+    height: 638px;
+    margin-top: 100px;
+    margin: 100px 0px 100px 0px;
+
+}
+.about-column-sh div{
+    padding-bottom: 20px;
+}
+.aboutheading-sh{
+    font-family: poppins-bold;
+    font-size: 109px;
+    color: white;
+    margin-left: 50px;
+}
+.aboutheading-sh span{
+    color: rgb(245, 214, 157);
+}
+.detail-dh-sh-row{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-dh-sh{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    width: 20%;
+
+    /* padding-right:100px ; */
+    margin-bottom: 50px;
+}
+.detail-dh-sh i {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 20px;
+    padding:20px;
+    font-weight: 100;
+}
+.detail-dh-sh h5{
+    margin-bottom: 10px;
+    font-family: poppins-medium;
+    font-weight: 600;
+}
+.detail-dh-sh p {
+    color: rgb(70, 70, 70);
+}
+
+.home-interior-design-sh{
+    background-image: url("../images/francesca-tosolini-ykHFS4Ul64U-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-bottom:120px ;
+    
+}
+.interiordesign-sh{
+    width: 80% ;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+}
+.interiordesign-sh h1 a {
+    text-decoration: none;
+    color: black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 109px;
+    transition: 0.4s;   
+}
+.interiordesign-sh h1 a:hover{
+    color: white;  
+}
+.office-interior-design-sh{
+    background-image: url("../images/myhq-workspaces-NEFgreoVtig-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-bottom:120px ;
+}
+.apartmentdesignbg-sh{
+    background-image: url("../images/brandon-griggs-wR11KBaB86U-unsplash.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:120px ;
+}
+.commercialdesignbg-sh{
+    background-image: url("../images/ricardo-gomez-angel-opFPVxMRpP8-unsplash.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:120px ;
+}
+.commercialdesignbg-sh div h1 a{
+    margin-right: 10px;
+}
+.apartmentdesigntext-sh{
+    width: 80% ;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+}
+.apartmentdesigntext-sh h1 a{
+    text-decoration: none;
+    color: black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 95px;
+    transition: 0.4s; 
+}
+.apartmentdesigntext-sh h1 a:hover{
+    color: white;  
+}
+.viewprojects{
+    margin: 50px 0px 40px 0px;
+}
+.viewprojects h1{
+    text-align: center;
+}
+.viewprojects h1 a{
+    text-decoration: none;
+    width: 100%;
+    font-family: poppins-bold;
+    font-size: 109px;
+    transition: 0.4s;
+    text-align: center;
+    color: black;
+}
+.viewprojects h1 a:hover{
+    color: rgb(201, 166, 102);
+}
+.main-footer-sh{
+    background-color: rgb(31, 31, 31);
+    padding-top: 80px ;
+    padding-bottom: 80px;
+    color: white;
+}
+.question-col-sh h3{
+    color: white;
+}
+
+.question-col-sh ul li , .links-col-sh ul li , .services-col-sh ul li , .connect-col-sh ul li{
+    list-style: none;
+}
+.links-col-sh ul li a , .services-col-sh ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    line-height: 3px;
+}
+.question-col-sh ul li{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.question-col-sh ul li i{
+    margin-right: 30px;
+    font-size: 18px;
+}
+.question-col-sh ul li p{
+    font-size: 15px;
+}
+.question-col-sh h3 , .links-col-sh  h3  {
+    margin-bottom: 40px;
+    margin-left: 30px ;
+
+}
+.services-col-sh h3{
+    margin-bottom: 30px;
+}
+.colorchange-sh i , p{
+    color: rgb(201, 166, 102);
+}
+.links-col-sh  h3{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    /* font-size: 10px; */
+}
+.links-col-sh ul li , .services-col-sh ul li , .question-col-sh ul li , .question-col-sh ul li i {
+line-height: 35px;
+}
+.connect-col-sh ul {
+    display: flex;
+}
+.connect-col-sh h3{
+    margin-bottom: 40px;
+}
+.connect-col-sh input{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+    color: white;
+    /* overflow: hidden; */
+}
+.connect-col-sh button{
+    border: 1px solid white;
+    background-color: rgb(201, 166, 102);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.connect-col-sh button i{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.connect-col-sh ul li{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.connect-col-sh ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.connect-col-sh ul li a:hover {
+    color: rgb(201, 166, 102);
+}
+
+/* **************************************************** */
+/* *******************************ABOUT PAGE******************************* */
+           /* **************************************************** */
+
+
+.about-main-img{
+    background-image: url(../images/ximg_bg_1.jpg.pagespeed.ic.qm7ZzGBTSu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 545px;
+}
+.about-main-img div h1{
+    float: right;
+    margin-top: 180px;
+    font-size: 130px;
+    margin-right: 60px;
+    color: white;
+}
+.about-detailwelcome-sh{
+    margin-top: 150px;
+    /* margin-bottom: 150px; */
+}
+.about-detailwelcome-sh div div p{
+    color: black;
+    margin-top: 25px;
+    width: 80%;
+}
+.about-detailwelcome-sh div div h1{
+    display: inline;
+}
+.about-detailwelcome-sh div div img{
+    /* border: 3px solid yellow; */
+    box-shadow: 5px 5px 15px 2px  rgb(175, 172, 172);
+}
+.company-name-sh{
+    color: burlywood;
+    font-family: poppins-bold;
+}
+.team-main-sh{
+    margin-top: 150px;
+    text-align: center;
+}
+.team-main-sh div div h6{
+    color:rgb(197, 197, 197);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.team-technical-sh{
+    font-family: poppins-bold;
+    margin-top: 10px;
+}
+.our-extralight{
+    font-family: poppins-extralight;
+}
+.team-main-sh div div h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.team-main-sh div div p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.bruce-sh{
+    background-image: url(../images/xperson2.jpg.pagespeed.ic.WQm5qeM-EG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 320px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.ali-sh{
+    background-image: url(../images/xperson1.jpg.pagespeed.ic.P1c5vyD-BR_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 320px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.marsha-sh{
+    background-image: url(../images/marsha-dhita-RLz345_a7oM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 320px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.team-member-sh{
+    margin-top: 60px;
+}
+.teamember-detail{
+    background-color: white;
+    position: relative;
+    top: 250px;
+    padding: 20px 0px 20px 0px;
+}
+.teamember-detail h5 {
+    color: black;
+    font-weight: 600;
+}
+.teamember-detail p{
+color: rgb(179, 177, 177);
+font-family: poppins;
+letter-spacing: 5px;
+/* font-size: 8px; */
+/* border: 1px solid black; */
+width: 100% !important;
+}   
+.item i{ 
+    color: rgb(184, 184, 184);
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.testimonial-sh{
+    margin-top: 60px;
+    /* max-width: 960px; */
+    /* margin: 0 auto; */
+}
+.testimonial-main-heading-sh{
+    margin-top: 30px;
+    /* margin-right: 10px; */
+}
+.testimonial-main-heading-sh p{
+    letter-spacing: 15px;
+}
+.testimonial-main-heading-sh h6{
+    font-size: 45px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.testimonial-main-heading-sh h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+}
+.testimonial-sh div p{
+    color: grey;
+}
+.testimonial-person-sh{
+    display: flex;
+    margin-right: 30px;
+}
+.testimonial-person-comments-sh{
+    width: 100%;
+    font-size: 20px;
+    margin-left:40px ;
+    font-family: poppins-extralight;
+}
+.testimonial-person-name-sh{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.owl-dots{
+    display: none;
+}
+.owl-nav{
+    font-size: 30px;
+    /* float: right; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 80px;
+}
+.owl-nav .owl-next:hover , .owl-nav .owl-prev:hover{
+    background: none !important;
+
+    outline: none;
+}
+.testimonial-arrow {
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding:15px;
+    background-color: rgb(238, 202, 1);
+}
+.signup-letter-sh{
+    background-color: rgb(197, 168, 0);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 300px;
+}
+.signup-letter-sh div h1{
+    color: white;
+    /* text-align: center; */
+    margin-left: 180px;
+    font-size: 50px;
+}
+.email-input-sh{
+    display: flex;
+    margin-top: 70px;
+    margin-left:180px ;
+}
+.email-input-sh h6{
+    color: white;
+    font-size: 20px;
+    margin-right: 70px;
+    line-height: 30px;
+    width: 50%;
+}
+.email-input-sh input{
+    width: 300px;
+    border: none;
+    padding-left: 15px;
+    height: 50px;
+}
+.email-input-sh button{
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+           /* **************************************************** */
+/* *******************************MEDIA QUERIES******************************* */
+           /* **************************************************** */
+           @media screen and (max-width: 1205px) and (min-width:980px){
+            .apartmentdesigntext-sh h1 a{
+                font-size: 70px;
+            }
+            .apartmentdesigntext-sh{
+                position: relative !important;
+                top: 7 !important;
+                bottom:50px;
+                
+               }
+               .interiordesign-sh h1 a {
+                text-decoration: none;
+                color: black;
+                color: black;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-family: poppins;
+                font-weight: bold;
+                font-size: 96px;
+                transition: 0.4s;   
+            }
+            .connect-col-sh input{
+        
+                width: 150px;
+                height: 35px;
+                color: white;
+                /* overflow: hidden; */
+            }
+            .connect-col-sh button{
+                border: 1px solid white;
+                background-color: rgb(201, 166, 102);
+                border-radius: 5px;
+                width: 35px;
+                height: 35px;
+                padding-left: 10px;
+                margin-top: 10px;
+            }
+            .connect-col-sh button i{
+                font-size: 18px;
+                display: flex;
+                justify-content: space-between;
+            }
+           
+        }
+        
+           
+           @media screen and (max-width: 979px)and (min-width:753px){
+            .apartmentdesigntext-sh h1 a{
+                font-size: 50px;
+                font-family: poppins-bold;
+                
+            }
+            .apartmentdesigntext-sh{
+                position: relative !important;
+                top: 7 !important;
+                bottom:30px;
+                
+            }
+            .interiordesign-sh h1 a {
+                font-size: 80px;  
+            }
+            .interiordesign-sh{
+                position: relative;
+                bottom: 50px;
+            }
+        }
+           
+           
+         @media screen and (max-width: 1150px)and (min-width:650px){
+            .aboutheading-sh{
+                font-family: poppins;
+                font-size: 80px;
+                color: white;
+            }
+        }
+        @media screen and (max-width: 649px){
+            .aboutheading-sh{
+                font-family: poppins;
+                font-size: 50px;
+                color: white;
+                margin-left: 20px;
+            }
+            .apartmentdesigntext-sh h1 a{
+                font-size: 70px;
+                font-family: poppins-bold;
+                
+            }
+            .apartmentdesigntext-sh{
+                position: relative !important;
+                top: 17 !important;
+                bottom:40px;
+               }
+               .interiordesign-sh h1 a {
+                font-size: 60px;  
+                width: 100%;
+            }
+            .interiordesign-sh{
+                position: relative;
+                bottom: 38px;
+            }
+        }
+        @media screen and (max-width: 991px)and (min-width:600px) {
+            .container-main-architects div div h1 {
+                margin-left: 140px;
+            }
+            .container-main-architects div div p{
+                margin-left: 140px;
+            }
+        }    
+                    
+        
+            
+        @media screen and (max-width: 599px){
+            .container-main-architects div div h1 {
+                margin-left: 30px;
+                margin-top: 150px;
+            }
+            .container-main-architects div div p{
+                margin-left: 30px;
+            }
+            .experienced-sh{
+                margin-left: 12px !important;
+            }
+            .experienced-sh div{
+                margin-bottom: 40px;
+            }
+            .apartmentdesigntext-sh h1 a{
+                font-size: 40px;
+                font-family: poppins-bold;
+            }
+            .apartmentdesigntext-sh{
+                position: relative !important;
+                top: 17 !important;
+                bottom:23px;
+            }
+            .interiordesign-sh h1 a {
+                font-size: 50px;  
+                width: 100%;
+            }
+            .interiordesign-sh{
+                position: relative;
+                bottom: 30px;
+            }
+            .viewprojects h1 a{
+                font-size: 50px;
+            }
+            
+        }
+        
+        @media screen and (max-width: 500px){
+            .detail-dh-sh-row {
+                display: block !important;
+            }
+            .detail-dh-sh-row .detail-dh-sh{
+                width: 80%px;
+            }
+            .interiordesign-sh h1 a {
+                font-size: 40px;  
+                width: 100%;
+            }
+            .interiordesign-sh{
+                position: relative;
+                bottom: 25px;
+            }
+            .viewprojects h1 a{
+                font-size: 40px;
+            }
+        }
+        
+        @media screen and (max-width: 420px){
+            .aboutheading-sh{
+                font-size: 40px;
+            }
+            .interiordesign-sh h1 a {
+                font-size: 30px;  
+                width: 100%;
+            }
+            .interiordesign-sh{
+                position: relative;
+                bottom: 20px;
+            }
+            .viewprojects h1 a{
+                font-size: 30px;
+            }
+        }
+        @media screen and (max-width: 320px){
+            .aboutheading-sh{
+                font-size: 30px;
+                margin-left: 0px;
+            }
+            .interiordesign-sh h1 a {
+                font-size: 25px;  
+                width: 100%;
+            }
+            .interiordesign-sh{
+                position: relative;
+                bottom: 20px;
+            }
+            .viewprojects h1 a{
+                font-size: 25px;
+            }
+        }
+        @media screen and (max-width: 280px){
+            .apartmentdesigntext-sh h1 a{
+                font-size: 25px;
+            }
+            .viewprojects h1 a{
+                font-size: 20px;
+            }
+        }
+
+
+        
+
+/* ***********************ABOUT PAGE***************************** */
+
+
+@media screen and (max-width: 1205px) and (min-width:980px){
+    .about-detailwelcome-sh div div p{
+        width: 100%;
+    } 
+    .about-detailwelcome-sh div div img{
+        width: 100%;
+    }
+    .teamember-detail p{
+        color: rgb(179, 177, 177);
+        font-family: poppins;
+        letter-spacing: 5px;
+        font-size: 12px;
+        }
+}
+        @media screen and (max-width: 979px)and (min-width:753px){
+            .about-detailwelcome-sh div div p {
+                width: 100%;
+            }
+            .aboutdhimg-sh img{
+                width: 100%;
+           }
+           .team-main-sh div div p{
+               width: 100% !important;
+           }
+        }
+        @media screen and (max-width: 991px)and (min-width:600px) {
+            .email-input-sh {
+                display: block !important;
+                margin-left: 20px;
+                width: 80%;
+            }
+            .email-input-sh h6 , input{
+                width: 70% !important;
+                
+            }
+            .signup-letter-sh div h1{
+                margin-left: 20px;
+                font-size: 40px;
+            }
+        }
+        @media screen and (max-width:700px) {
+            .bruce-sh , .ali-sh , .marsha-sh{
+                box-sizing: border-box;
+                width: 70% !important;
+                margin: auto !important;
+                margin-bottom: 15px !important;
+            }
+            .about-detailwelcome-sh div div p {
+                width: 100%;
+            }
+            .aboutdhimg-sh img {
+                width: 100%;
+            }
+            .team-main-sh div div p{
+                width: 100% !important;
+            }
+        @media screen and (max-width:580px){
+            .bruce-sh , .ali-sh , .marsha-sh{
+                    width: 60% !important;
+                    margin: auto;
+                    margin-bottom: 15px;
+            }
+            .testimonial-person-comments-sh{
+                font-size: 15px !important;
+            }
+            .owl-nav{
+                margin-right: 0;
+            }
+            .testimonial-arrow {
+                font-size: 15px;
+                font-weight: 100;
+            }
+            
+        }
+        @media screen and (max-width:600px){
+            .email-input-sh {
+                display: block !important;
+                margin-left: 20px;
+            }
+            .email-input-sh h6{
+                width: 90% !important;
+                font-family: poppins-extralight;
+                font-size: 15px;
+            }
+            .email-input-sh input{
+                width: 60% !important;
+                
+            }
+            .signup-letter-sh div h1{
+                width: 100%;
+                margin-left: 10px;
+                font-size: 35px;
+            }
+        }
+        @media screen and (max-width:1000) and (min-width:800) {
+            .email-input-sh input{
+                width: 496px;
+                margin-top: 15px;
+            }
+        }
+        
+        @media screen and (max-width: 890px)and (min-width:760px) {
+            .bruce-sh , .ali-sh , .marsha-sh{
+                box-sizing: border-box;
+                width: 80% !important;
+            }
+        }
+        @media screen and (max-width:450px){
+            .about-main-img div h1{
+                font-size: 80px;
+            }
+            .firstone-detail-sh{
+                position: relative;
+                top: 227px !important;
+            }   
+        }
+        @media screen and (max-width:420px) {
+            .thirdone-detail-sh{
+                position: relative;
+                top: 227px !important;
+            }
+        }
+        @media screen and (max-width:390px){
+            .team-technical-sh{
+                font-size: 40px !important;
+            }
+            .our-extralight{
+                font-size: 40px !important;
+            }
+            .testimonial-main-heading-sh{
+                margin-left: -40px;
+            }
+            .testimonial-main-heading-sh h6{
+                font-size: 30px ;
+                width: 100%;
+            }
+            .testimonial-main-heading-sh h1{
+                font-size: 45px;
+            }
+            .testimonial-main-heading-sh p{
+                letter-spacing: 6px;
+            }
+        }
+        @media screen and (max-width:300px){
+            .team-technical-sh{
+                font-size: 30px !important;
+            }
+            .our-extralight{
+                font-size: 30px !important;
+            }
+        }
+            
